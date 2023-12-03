@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #ffd700; 
+}
+
+.menu li a.active {
+    color: #ffd700;
+}
+
+.recipe {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.recipe h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+.recipe h3 {
+    margin-top: 20px;
+}
+
+.email-signup {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.email-signup h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.email-signup input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.email-signup button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email-signup button:hover {
+    background-color: #555;
+}
